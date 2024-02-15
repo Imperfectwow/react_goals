@@ -13,6 +13,7 @@ function App() {
     async function fetchData() {
       setIsLoading(true);
 
+      
       try {
         const response = await fetch('http://localhost/goals');
 
