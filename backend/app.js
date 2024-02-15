@@ -9,7 +9,6 @@ const morgan = require('morgan');
 const Goal = require('./models/goal');
 
 
-
 const app = express();
 
 const accessLogStream = fs.createWriteStream(
